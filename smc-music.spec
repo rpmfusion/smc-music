@@ -2,7 +2,7 @@
 
 Name:           smc-music
 Version:        4.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Additional music for Secret Maryo Chronicles
 Group:          Amusements/Games
 License:        GPLv3
@@ -56,6 +56,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Jul 25 2008 Hans de Goede <j.w.r.degoede@hhs.nl> 4.0-2
+- Release bump for rpmfusion
+
 * Wed Aug 08 2007 Ian Chapman <packages@amiga-hardware.com> 4.0-1
 - Upgrade to 4.0
 - Changed license field due to match new guidelines
