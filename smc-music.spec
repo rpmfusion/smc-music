@@ -2,7 +2,7 @@
 
 Name:           smc-music
 Version:        4.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Additional music for Secret Maryo Chronicles
 Group:          Amusements/Games
 License:        GPLv3
@@ -48,14 +48,14 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{datapath}/music/*/*.ogg
-# Note this dir is intentionally owned by this rpm and not smc as smc doesn't
-# have it by default.
-%dir %{datapath}/music/story
 %doc credits.txt docs/license.txt
+%{datapath}/music/*
 
 
 %changelog
+* Wed Dec 17 2008 Hans de Goede <j.w.r.degoede@hhs.nl> 4.0-3
+- Fix directory ownership issues (rpmfusion 223)
+
 * Fri Jul 25 2008 Hans de Goede <j.w.r.degoede@hhs.nl> 4.0-2
 - Release bump for rpmfusion
 
