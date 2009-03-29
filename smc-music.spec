@@ -2,7 +2,7 @@
 
 Name:           smc-music
 Version:        4.0
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Additional music for Secret Maryo Chronicles
 Group:          Amusements/Games
 License:        GPLv3
@@ -53,6 +53,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 4.0-4
+- rebuild for new F11 features
+
 * Wed Dec 17 2008 Hans de Goede <j.w.r.degoede@hhs.nl> 4.0-3
 - Fix directory ownership issues (rpmfusion 223)
 
