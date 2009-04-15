@@ -1,13 +1,13 @@
 %define         datapath %{_datadir}/smc/
 
 Name:           smc-music
-Version:        4.0
-Release:        4%{?dist}
+Version:        4.1
+Release:        1%{?dist}
 Summary:        Additional music for Secret Maryo Chronicles
 Group:          Amusements/Games
 License:        GPLv3
 URL:            http://www.secretmaryo.org
-Source0:        http://dl.sf.net/smclone/SMC_music_%{version}_high.zip
+Source0:        http://dl.sf.net/smclone/SMC_Music_%{version}_high.zip
 Source1:        dochelper.pl
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
@@ -53,6 +53,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Apr 15 2009 Hans de Goede <j.w.r.degoede@hhs.nl> 4.1-1
+- New upstream release 4.1
+
 * Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 4.0-4
 - rebuild for new F11 features
 
