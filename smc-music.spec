@@ -2,7 +2,7 @@
 
 Name:           smc-music
 Version:        4.1
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Additional music for Secret Maryo Chronicles
 Group:          Amusements/Games
 License:        GPLv3
@@ -53,6 +53,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sun Aug 31 2014 Sérgio Basto <sergio@serjux.com> - 4.1-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_21_22_Mass_Rebuild
+
 * Thu Nov 01 2012 Nicolas Chauvet <kwizart@gmail.com> - 4.1-3
 - Rebuilt for new boost
 
