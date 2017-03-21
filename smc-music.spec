@@ -11,6 +11,7 @@ Source0:        http://dl.sf.net/smclone/SMC_Music_%{version}_high.zip
 Source1:        dochelper.pl
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
+BuildRequires:  perl
 Requires:       smc >= 0.99.7
 
 %description
